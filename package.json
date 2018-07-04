@@ -1,0 +1,30 @@
+{
+  "name": "lta-datamall",
+  "version": "0.0.0",
+  "description": "An object-oriented LTA Datamall API Node.js wrapper.",
+  "main": "index.js",
+  "repository": "https://github.com/lta-datamall/node-module",
+  "author": "Rifa Achrinza",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "gulp run build",
+    "test": "mocha || true",
+    "gulp": "gulp",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.1",
+    "@types/request-promise": "^4.1.41",
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "mocha": "^5.2.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "allowJs": false,
+        "alwaysStrict": true,
+        "lib": [
+            "es2015"
+        ],
+        "noImplicitAny": true,
+        "removeComments": true,
+        "strict": true,
+        "target": "es2015"
+    }
+}
