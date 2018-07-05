@@ -4,7 +4,7 @@
   "description": "An object-oriented LTA Datamall API Node.js wrapper.",
   "main": "index.js",
   "repository": "https://github.com/lta-datamall/caller-node",
-  "author": "Rifa Achrinza",
+  "author": "AppRExp",
   "license": "MIT",
   "private": false,
   "scripts": {
