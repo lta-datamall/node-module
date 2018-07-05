@@ -1,3 +1,7 @@
+declare type apiAccountKey = string;
+declare type apiDataset = string;
+declare type apiUrl = string;
+
 declare interface APIArgs {
     apiAccountKey: apiAccountKey,
     apiDataset: apiDataset

@@ -1,29 +1,33 @@
 {
-  "name": "lta-datamall",
-  "version": "0.0.0",
+  "name": "lta-datamall-caller",
+  "version": "0.1.0",
   "description": "An object-oriented LTA Datamall API Node.js wrapper.",
   "main": "index.js",
-  "repository": "https://github.com/lta-datamall/node-module",
+  "repository": "https://github.com/lta-datamall/caller-node",
   "author": "Rifa Achrinza",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "gulp run build",
-    "test": "mocha || true",
+    "build": "gulp build",
+    "test": "jest",
     "gulp": "gulp",
     "tsc": "tsc"
   },
   "dependencies": {
     "bluebird": "^3.5.1",
-    "request": "^2.87.0",
-    "request-promise": "^4.2.2"
+    "request": "^2.87.0"
   },
   "devDependencies": {
     "@types/node": "^10.5.1",
-    "@types/request-promise": "^4.1.41",
-    "chai": "^4.1.2",
+    "@types/request-promise-native": "^1.0.15",
     "gulp": "^3.9.1",
-    "mocha": "^5.2.0",
+    "gulp-rm": "^1.0.5",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "gulp-uglify": "^3.0.0",
+    "jest": "^23.3.0",
+    "pump": "^3.0.0",
+    "request-promise-native": "^1.0.5",
     "tslint": "^5.10.0",
     "typescript": "^2.9.2"
   }
