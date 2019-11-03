@@ -1,4 +1,7 @@
 # LTA Datamall Caller
+
+> **MAINTAINER NOTICE: This module is currently unmaintained. Use at your own risk.**
+
 **Warning:** This API is highly experimental and currently does not comply with [semver](https://semver.org/). Use at your own risk.
 
 ![node](https://img.shields.io/node/v/lta-datamall-caller/latest.svg?style=flat-square)
